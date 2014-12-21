@@ -1,0 +1,208 @@
+——————————
+flask：
+__author__ = 'Administrator'
+#coding:utf-8
+from flask import Flask, render_template
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+
+    return render_template('index.html')
+
+if __name__=='__main__':
+    app.debug = True
+    app.run()
+    ++++++++++++++++
+    index.html:
+<html>
+<link href="blei.css" rel="stylesheet" type="text/css">
+<head>
+<title>赵本山</title>
+<meta name="keywords" contents="赵本山介绍">
+<link rel="stylesheet" href="blei.css" type="text/css" />
+</head>
+<body>
+<div class="navigation">
+  <center>
+    <img src="1.jpg" alt="picture"  height=200,  align="center" />
+    <h2> 赵本山 </h2>
+
+    <h3> <a href="introduction.html">简介</a> </h3>
+    <a href="film.html">电影作品</a> <p>
+    <a href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=25&word=%E8%B5%B5%E6%9C%AC%E5%B1%B1%E6%BC%94%E8%BF%87%E7%9A%84%E7%94%B5%E8%A7%86%E5%89%A7&ie=utf-8">电视剧作品</a> <p>
+  </center>
+  <p>
+      <center>
+   1957年10月2日出生 <br>
+    辽宁铁岭市人 <br>
+    表演艺术家 <br>
+    国家一级演员 <br>
+    东北二人转教授 </A><br>
+    </center>
+    </p>
+</div>
+<div class="content">
+
+ <style type="text/css">
+            dl.bib2xhtml dd { padding-bottom: 1em }
+       </style>
+
+       <style type="text/css">
+            ul.bib2xhtml li { padding-bottom: 1.5em }
+       </style>
+
+<div class="content">
+<h1>1982</h1>
+<ul class= "bib2xhtml">
+<li> 辽宁省举办第一届农村小戏调演，在梁秀亮与崔凯合作的拉场戏《摔三弦》剧中扮演盲人张志，一举成名。1987年赵本山和潘长江搭档演的《瞎子观灯》，在沈阳演了五六百场，一天就演四五场。这一年，他调入铁岭市民间艺术团。</li></ul>
+<h1>1988</h1>
+<ul class= "bib2xhtml">
+<li>主演电视戏曲片《双送鸭》。1989年参加首届东北三省民间艺术节，参加辽宁电视台“春节联欢晚会”。</li></ul>
+<h1>1990</h1>
+<ul class= "bib2xhtml">
+<li>在姜昆的推荐下进入了中央电视台春节晚会，并主演拉场戏《1+1=？》、《麻将、豆腐》。创作出了《相亲》、《我想有个家》、《牛大叔提干》、《红高粱模特队》、《昨天今天明天》、《卖拐》、《卖车》、《功夫》等经典小品</li></ul>
+<h1>1991</h1>
+<ul class= "bib2xhtml">
+<li>拍摄电视剧《过了这一村》，担任男主角，获“飞天”二等奖。1997年，主演电视连续剧《一乡之长》，获辽宁长篇电视剧一等奖、最佳男主角奖</li></ul>
+<h1>1999</h1>
+<ul class= "bib2xhtml">
+<li>拍摄的电影《男妇女主任》荣获年度中国电影“华表奖”、“优秀男演员奖”、“优秀故事片奖”、“获中国电影百花奖”、“最佳男主角”。并被辽宁省委宣传部命名为“德艺双馨”艺术家。</li></ul>
+<h1>2000</h1>
+<ul class= "bib2xhtml">
+<li>任电影《幸福时光》男主角。2002年在中央电视台、中国电视剧制作中心联合拍摄的电视剧《刘老根》中，担任导演及男主角。9月以赵本山名字命名的“赵本山杯”小品大赛会同中国铁岭首届国际民间艺术节在铁岭举行。</li></ul>
+<h1>2007</h1>
+<ul class= "bib2xhtml">
+<li>指导拍摄《乡村爱情2》。同年和宋丹丹合作演出了电影《落叶归根》入围第44届台湾金马奖最佳男主角。</li></ul>
+<h1>2009</h1>
+<ul class= "bib2xhtml">
+<li>与黑龙江电视台联手打造大型娱乐剧《本山快乐营》，9月30日凌晨，赵本山在上海突发脑出血入院治疗，后被紧急送往华山医院，其病情被初步诊断为“蛛网膜下腔出血”。经过多位专家精心治疗，半个月左右康复出院。12月，本山传媒与台湾东风传媒，华纳音乐、环球热力兄弟影音在北京刘老根大舞台正式签署合作协议，宣告三家娱乐集团联手，打造华人TOP YOUNG偶像组合。</li></ul>
+<h1>2010</h1>
+<ul class= "bib2xhtml">
+<li>赵本山投资并主演了由朱延平执导，宁财神编剧的电影《大笑江湖》。5月29日，赵本山获得第三届华鼎之夜最具分量的“中国年度最杰出艺术家成就大奖”。</li>
+</ul>
+<h1>2011</h1>
+<ul class= "bib2xhtml">
+<li>在“2011年CCTV春节联欢晚会我最喜爱的优秀节目评选”中，赵家班表演的小品《同桌的你》获得了小品类节目一等奖，赵本山已十三度加冕小品王。</li></ul>
+<h1>2012</h1>
+<ul class= "bib2xhtml">
+<li>拍摄《乡村爱情小夜曲》，在戏中与80后演员关婷娜饰演"夫妻"。7月拍摄了《乡村爱情变奏曲》并在里面有大量戏份出现。</li></ul>
+<h1>2013</h1>
+<ul class= "bib2xhtml">
+<li>拍摄《东北往事》和《乡村爱情7》。6月23日，由农业部等部门主办的中国“美丽乡村快乐行”活动，在黑龙江鸡西密山市白鱼湾镇正式启动。农业部“美丽乡村”创建活动形象大使赵本山带领刘老根大舞台演员，为湖沿村的农民送上了一台“大篷车”文艺演出。2013年宣布正式退出春晚舞台，留下机会和空间给更多的年轻人。1月30日，赵本山在参与了江苏卫视蛇年春晚的录制，“零片酬”表演小品《有钱了》之后，又做客由郭德纲主持的江苏卫视新节目《郭的秀》，在节目中，赵本山出人意料地表示，将永久退出小品界。7月12日下午，2014年中央电视台春节联欢晚会新闻发布会在梅地亚中心举行，赵本山被聘任为副总导演，语言节目总监。</li></ul>
+<h1>2014</h1>
+<ul class= "bib2xhtml">
+<li>赵本山早早表达了想上春晚的想法，他说：“第一，我听党的话；第二，我听老百姓的话。要是大家早都把我忘了呢？但如果大家还愿意看我这张老脸，我会奋不顾身。虽然我身体可能是有点问题，但是，不至于倒在台上。</li></ul>
+</div>
+</body>
+</html>
+++++++++++++++++
+film.html
+<html>
+<title>赵本山演过的电影作品</title>
+<h1 align=center>赵本山电影作品</h1>
+<style type="text/css">
+div#content {background-color:#ffff99;height:350px;width:200px;float:left;}
+div#uu {background-color:#FFFFFF;height:350px;width:30px;float:left;}
+div#men {background-color:#ffff99;height:350px;width:200px;float:left;}
+div#uu {background-color:#FFFFFF;height:350px;width:30px;float:left;}
+div#men {background-color:#ffff99;height:350px;width:200px;float:left;}
+div#aa{background-color:#FFFFFF;height:350px;width:30px;float:left;}
+div#bb {background-color:#ffff99;height:350px;width:200px;float:left;}
+div#cc {background-color:#FFFFFF;height:350px;width:30px;float:left;}
+div#dd {background-color:#ffff99;height:350px;width:200px;float:left;}
+div#ee {background-color:#FFFFFF;height:350px;width:30px;float:left;}
+div#ff {background-color:#ffff99;height:350px;width:200px;float:left;}
+div#hh {background-color:#FFFFFF;height:350px;width:30px;float:left;}
+div#ii {background-color:#ffff99;height:350px;width:200px;float:left;}
+div#jj {background-color:#FFFFFF;height:350px;width:30px;float:left;}
+div#kk {background-color:#ffff99;height:350px;width:200px;float:left;}
+</style>
+<body>
+<div id=content>
+<img src="9.jpg" alt="picture"  height=300, width=200, align="center" />
+<p align=center><a href="http://www.paody.com/Dianying/Juqing/17159/">现世活宝</a></p>
+</div>
+<div id=uu>
+<p></p>
+</div>
+<div id=men>
+<img src="3.jpg" alt="picture"  height=300, width=200, align="center" />
+<p align=center><a href="http://v.baidu.com/movie/19733.htm?fr=ala7&ty=21">荆轲刺秦王</a></p>
+</div>
+<div id=uu>
+<p></p>
+</div>
+<div id=bb>
+<img src="8.jpg" alt="picture"  height=300, width=200, align="center" />
+<p align=center><a href="http://tv.sohu.com/s2011/yhhhs/">有话好好说</a></p>
+</div>
+<div id=cc>
+<p></p>
+</div>
+<div id=dd>
+<img src="4.jpg" alt="picture"  height=300, width=200, align="center" />
+<p align=center><a href="http://www.360kan.com/m/gKTrY0IqSHTASR.html">男妇女主任</a></p>
+</div>
+<div id=ee>
+<p></p>
+</div>
+<div id=ff>
+<img src="7.jpg" alt="picture"  height=300, width=200, align="center" />
+<p align=center><a href="http://www.360kan.com/m/gqrrZEIqS0X7SR.html">幸福时光</a></p>
+</div>
+<div id=hh>
+<p></p>
+</div>
+<div id=ii>
+<img src="6.jpg" alt="picture"  height=300, width=200, align="center" />
+<p align=center><a href="http://www.360kan.com/m/gKXpZEcrcXL4TB.html">落叶归根</a></p>
+</div>
+<div id=jj>
+<p></p>
+</div>
+<div id=kk>
+<img src="5.jpg" alt="picture"  height=300, width=200, align="center" />
+<p align=center><a href="http://www.baidu.com/s?wd=%E9%9C%87%E6%92%BC%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%83%E6%97%A5&hl_tag=textlink&tn=SE_hldp01350_v6v6zkg6">震撼世界的七日</a></p>
+</div>
+</body>
+</html>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+introduction.html
+<html>
+<title>赵本山个人简介</title>
+<head>
+<h1 align=center>赵本山的介绍</h1>
+</head>
+<body bgcolor="#d0d0d0">
+<h2><li>出生以及演艺经历</li></h2>
+<p>赵本山，1957年10月2日出生于辽宁省铁岭市开原市，喜剧表演艺术家、国家一级演员，东北二人转教授，全国政协委员、中国曲艺家协会会员、全国青联委员、辽宁大学本山艺术学院院长，本山传媒集团董事长。</br>
+  1982年，赵本山主演了拉场戏《摔三弦》，1990年开始踏上央视春晚的舞台，连续十五年获得中央电视台春节晚会一等奖。1999年由个人投资主演的电影《男妇女主任》获得第二十二届大众电影百花奖最佳故事片奖，赵本山获最佳男演员奖。2003年，赵本山首倡“绿色二人转”，并创立了以演出“绿色二人转”为主的“刘老根大舞台”。2013年蛇年春晚前，赵本山宣布退出小品舞台。担任2014年中央电视台春节联欢晚会副总导演兼任语言类节目总监。</p>
+<h2><li>感情生活</li></h2>
+<p>赵本山有过两段婚姻，1979年初，赵本山与前妻葛淑珍结婚。1979年底，生下女儿赵玉芳。1982年，生下儿子赵铁蛋。但是，铁蛋是个聋哑儿，还患上了软骨症、肺气肿及心脏病。1991年5月7日，葛淑珍与赵本山办理了离婚手续。经协商，女儿赵玉芳、儿子赵铁蛋由葛淑珍抚养，赵本山一次性付清了葛淑珍及两个孩子的生活费、抚养费、医疗费，同时，他还把夏利轿车、三室一厅商品房及屋内设施全部交给了葛淑珍，选择了“净身出户”。</br>
+1992年，赵本山与马丽娟结婚。1997年的大年初一，马丽娟又为他添了一对龙凤胎。小名叫牛牛和妞妞，大名叫赵一楠和赵一涵。</p>
+<h2><li>家风</li></h2>
+<p>2014年，在马年春晚的后台赵本山接受了央视的采访。赵本山回忆，自己的父亲非常严厉，健在的时候还因节俭问题打骂过他。赵本山坦言，人心要坦荡学会放下，还要有信仰，不爱国的人自己都看不起。</p>
+<h2><li>弟子</li></h2>
+<p>第一批（6人）</br>
+李正春（已逝）、路遥、张小飞、唐鉴军、王小宝、王小利</br>
+第二批（8人）</br>
+蔡维利、蔡小楼、王永会、张小光、波比·肯、闫光明、王小虎、王金龙</br>
+第三批（9人）</br>
+高明娥（女）、孙立荣（女）、贾小七、张春光、姜海军、程野、燕飞、杨冰、苏小龙</br>
+第四批（2人）</br>
+刘小光、小沈阳。</br>
+第五批（11人）</br>
+张小伟、孙小飞、张凯、历小峰、程红、董三毛、贝亓儿、宋小宝、田娃、红孩、小鹏飞</br>
+第六批（3人）</br>
+汤潮、张议天、董成鹏</br>
+第七批（8人）</br>
+潘大勇、宋晓峰、周云鹏、刘传龙、王龙、杨明、文松、二黑</br>
+第八批（7人）</br>
+赫小刚、李小明、六岁红、小飞龙、于洋、陈美心（女）、刘宝成</br>
+第九批（12人）</br>
+王小福、曹兴、张林、小超越、小王刚、小沈龙、宋冠澎，贺树峰、吴云飞、孟令宇、金鸿鸣、黄宝吉</p>
+<p></p>
+</body>
+
+</html>
